@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuitem_load_image"
+        android:title="@string/title_menu_item_load_image"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

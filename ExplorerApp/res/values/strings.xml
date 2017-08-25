@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mainListView_text">
+        <item>Sensors</item>
+        <item>Games</item>
+        <item>Log</item>
+        <item>Input</item>
+        <item>OpenGL ES</item>
+        <item>Text to speech</item>
+    </string-array>
+    <string-array name="gamesListView_text">
+        <item>Ball bounce</item>
+        <item>Ball glider</item>
+        <item>Slide shooter</item>
+        <item>Breakout</item>
+        <item>Sliding puzzle</item>
+        <item>Drop ball</item>
+        <item>Maze</item>
+        <item>Platform</item>
+        <item>Unit tests</item>
+    </string-array>
+
+    <string name="sensorLabel">Sensor</string>
+    <string name="vendorLabel">Vendor</string>
+    <string name="versionLabel">Version</string>
+    <string name="rangeLabel">Range</string>
+    <string name="resolutionLabel">Resolution</string>
+    <string name="powerLabel">Power</string>
+    <string name="sensorReadingLabel">Sensor readings</string>
+    <string name="sensorButtonLabel">View</string>
+    <string name="rawValuesLabel">Raw values</string>
+    <string name="filteredValuesLabel">Filtered values</string>
+    <string name="resetZeroFilterText">Reset Zero</string>
+    <string name="clearLogButtonLabel">Clear Log</string>
+    <string name="clearInputButtonLabel">Clear</string>
+    <string name="logRegExpCheckBoxLabel">Reg Exp</string>
+    <string name="searchLogButtonLabel">Search</string>
+    <string name="endButtonLabel">End</string>
+    <string name="speakButtonLabel">Speak</string>
+    <string name="title_activity_main">Explorer Items</string>
+    <string name="title_activity_select_sensor">Sensors</string>
+    <string name="title_activity_view_sensor">Sensor view</string>
+    <string name="title_activity_games">Games</string>
+    <string name="title_activity_log_view">Log View</string>
+    <string name="title_activity_input">Input View</string>
+    <string name="title_activity_openGLES">OpenGL ES View</string>
+    <string name="title_activity_bouncing_balls">Bouncing Balls</string>
+    <string name="title_activity_gliding_ball">Gliding Ball</string>
+    <string name="title_activity_slide_shooter">Slide Shooter</string>
+    <string name="title_activity_collision_test">Unit Tests</string>
+    <string name="title_activity_breakout">Breakout</string>
+    <string name="title_activity_sliding_puzzle">Sliding Puzzle</string>
+    <string name="title_activity_drop_ball">Drop Ball</string>
+    <string name="title_activity_maze">Maze</string>
+    <string name="title_activity_platform">Platform</string>
+    <string name="title_activity_text_to_speech">Text To Speech</string>
+    <string name="app_name">ExplorerApp</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_menu_item_load_image">Load image</string>
+    <string name="str_paused">PAUSED</string>
+    <string name="str_tapToStart">Tap to Start</string>
+    <string name="title_activity_open_gles">OpenGLESActivity</string>
+    <string name="action_settings">Settings</string>
+    
+</resources>

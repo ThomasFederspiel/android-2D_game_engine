@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <EditText
+        android:id="@+id/logSearchEditText"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+  
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+	    <Spinner
+	        android:id="@+id/logFormatSpinner"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+	   
+	    <CheckBox
+	        android:id="@+id/logRegExpCheckBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/logRegExpCheckBoxLabel" />
+    
+		<Button
+	        android:id="@+id/searchLogButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/searchLogButtonLabel" />
+	    
+		<Button
+	        android:id="@+id/endButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/endButtonLabel" />
+	
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/clearLogButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/clearLogButtonLabel" />
+	</LinearLayout>
+	   
+	<TextView
+        android:id="@+id/logTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>
+
